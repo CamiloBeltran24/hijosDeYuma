@@ -97,6 +97,7 @@ header {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: top;
+  box-sizing: border-box;
   h1 {
     position: relative;
     background-image: linear-gradient(#fb9b11, #ec2078);
@@ -123,6 +124,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    box-sizing: border-box;
     // padding: 30px;
     img {
       width: 350px;
@@ -149,6 +151,7 @@ header {
     border-radius: 5px;
     margin-bottom: 20px;
     margin-top: 25px;
+    box-sizing: border-box;
     &:hover {
       color: #fff;
       background-color: #f17631;

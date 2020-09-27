@@ -105,6 +105,7 @@ header .menu ul li a:hover {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: top;
+  box-sizing: border-box;
 }
 .content-container h1 {
   position: relative;
@@ -131,6 +132,7 @@ header .menu ul li a:hover {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 .content-container .content img {
   width: 350px;
@@ -155,6 +157,7 @@ header .menu ul li a:hover {
   border-radius: 5px;
   margin-bottom: 20px;
   margin-top: 25px;
+  box-sizing: border-box;
 }
 .content-container .conocenos:hover {
   color: #fff;
